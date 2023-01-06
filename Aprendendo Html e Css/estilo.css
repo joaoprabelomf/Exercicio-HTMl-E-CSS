@@ -1,0 +1,107 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+.imagem-de-fundo{
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 0 0;
+  color: white;
+  background-position: 30% 45%;
+  background-size: cover;
+	
+}
+
+
+.imagem-icone{
+	 display: inline-block;
+     float: left;
+     width: 80px;
+     height:80px
+     margin-left:100px; 
+     margin-top: 20px; 
+     padding: 0 45px; 
+
+}
+.menu-cabecalho {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+
+nav {
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #32CD32;
+	text-decoration: underline;
+}
+
+
+.principal{
+		padding: 3em 0;
+		width: 300px;
+		margin-top: 100px;
+		margin-left:150px;
+		color: #000000;
+}
+
+.titulo-principal{
+	text-align: left;
+	font-size: 1.5em;
+	margin: 0 0 1em ;
+	clear: left;
+	color: #000000;	
+}
+
+
+.principal p {
+	margin: 0 0 1em;
+	
+	font-weight: bolder;
+
+
+}
+.principal strong {
+	font-weight: bold;
+	color: #006400;	
+}
+
+.botao {
+	width:40%;
+	padding: 5px 0;
+	background: #006400;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	margin-left: 6px;
+}
+
+.botao:hover {
+	background: darkgreen;
+	transform: scale(1.1);
+}
